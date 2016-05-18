@@ -1,0 +1,16 @@
+*{
+	box-sizing: border-box;
+}
+
+.promo{
+	height: 100vh;
+	min-height: 320px;
+	border-top: 10px solid #2DCC70;
+
+	background: url(../images/promo-bg.jpg) center no-repeat;
+	background-size: cover;
+}
+.promo__inner{
+	height: 100%;
+	background: url(../images/hand.png) center bottom no-repeat; 
+}
