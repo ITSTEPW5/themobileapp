@@ -62,6 +62,42 @@
 
 </section>
 
+<section class="subscribe">
+	
+	<div class="container">
+	
+		<div class="row">
+
+			<div class="col-6">
+
+				<h3 class="subscribe__title">Get notified by any updates!</h3>
+				<p class="subscribe_text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam fugiat distinctio atque quis maxime necessitatibus iusto amet tenetur nulla laborum ab ullam, non architecto soluta, id cupiditate perspiciatis vero totam!
+				</p>
+				<form action="">
+					
+					<fieldset class="subscribe__fieldset">
+						<input type="email" placeholder="Enter your email ...">
+						<button onclick="return false;">Notify</button>
+					</fieldset>	
+
+				</form>
+			</div>
+
+			<div class="col-6">
+
+				<div class="video__wrapper">
+					<iframe class="video__iframe" src="https://player.vimeo.com/video/167054481" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
 <?php 
 	require('layout/footer.php');
 ?>
