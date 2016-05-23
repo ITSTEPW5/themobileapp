@@ -21,9 +21,23 @@
 	</div>
 
 </section>
-
-<section style="height: 500px;"></section>
-
+<section class="features">
+	<div class="feature">
+		<i class="fa fa-cog"></i>
+		<span>Editable Theme</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+	</div>
+	<div class="feature">
+		<i class="fa fa-star"></i>
+		<span>Flat Design</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+	</div>
+	<div class="feature">
+		<i class="fa fa-globe"></i>
+		<span>Reach Your Audience</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+	</div>
+</section>
 
 <?php 
 	require('layout/footer.php');

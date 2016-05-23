@@ -63,6 +63,53 @@
 .promo__link:hover{
 	background: #2DCC70;
 }
+.features{
+	max-width: 1170px;
+	margin:0 auto;
+	background: #fff;
+}
+.feature{
+	float:left;
+	height: 340px;
+	width: 30%;
+	margin-right:3.33%;
+}
+.feature .fa{
+    display: block;
+    margin:60px auto 30px;
+    text-align: center;
+	line-height: 70px;
+	height: 70px;
+	width: 70px;
+	font-size: 40px;
+	color:#fff;
+	background: #2ecc71;
+	border-radius: 100%;
+
+}
+.feature span{
+	display:block;
+	text-align: center;
+	padding-bottom:30px;
+	font-size:22px;
+
+}
+.feature p{
+	font-size:16px;
+	line-height: 20px;
+	text-align: center;
+	color:#cecece;
+
+}
+@media screen and (max-width: 767px)
+{
+	.feature span{
+		font-size:18px;
+	}
+	.feature{
+		width: 100%;
+	}
+}
 @media screen and (max-width: 767px) and (min-height: 568px) and (orientation: portrait)
 {
 	.promo__inner{
