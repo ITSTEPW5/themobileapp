@@ -71,8 +71,9 @@
 .feature{
 	float:left;
 	height: 340px;
-	width: 30%;
-	margin-right:3.33%;
+	width: 33.3333%;
+	padding: 0 15px;
+	
 }
 .feature .fa{
     display: block;
