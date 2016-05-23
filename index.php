@@ -22,21 +22,44 @@
 
 </section>
 <section class="features">
-	<div class="feature">
-		<i class="fa fa-cog"></i>
-		<span>Editable Theme</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
+	
+	<div class="container">
+	
+		<div class="row">
+
+			<div class="feature col-4 text-center">
+
+				<i class="feature__icon fa fa-cog"></i>
+				<h4 class="feature__title">Editable Theme</h4>
+				<p class="feature__content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
+				</p>
+
+			</div>
+
+			<div class="feature col-4 text-center">
+
+				<i class="feature__icon fa fa-star"></i>
+				<h4 class="feature__title">Flat Design</h4>
+				<p class="feature__content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
+				</p>
+
+			</div>
+
+			<div class="feature col-4 text-center">
+
+				<i class="feature__icon fa fa-globe"></i>
+				<h4 class="feature__title">Reach Your Audience</h4>
+				<p class="feature__content">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
+				</p>
+				
+			</div>
+		</div>
+
 	</div>
-	<div class="feature">
-		<i class="fa fa-star"></i>
-		<span>Flat Design</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
-	</div>
-	<div class="feature">
-		<i class="fa fa-globe"></i>
-		<span>Reach Your Audience</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.</p>
-	</div>
+
 </section>
 
 <?php 
